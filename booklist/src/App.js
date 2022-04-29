@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import BookContextProvider from "./contexts/BookContext";
 
 function App() {
   return (
-      <div className="App">
-
-      </div>
+    <div className="App">
+      <BookContextProvider></BookContextProvider>
+    </div>
   );
 }
 
