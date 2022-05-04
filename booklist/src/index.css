@@ -5,25 +5,30 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #553055;
+    background: #101085;
 }
 
 .App {
-    background: #4c2a4c;
-    margin: 20px auto;
+    background: #151577;
+    margin: 200px auto;
     width: 90%;
     max-width: 700px;
     color: #eee;
+
 }
 
 .navbar {
     padding: 10px 20px;
     text-align: center;
-    background: #6d3d6d;
+    background: #073763;
 }
 
 .navbar h1 {
     margin: 10px 0;
+}
+
+.navbar p {
+    font-size: 1.2rem;
 }
 
 .book-list {
@@ -32,7 +37,7 @@ body {
 }
 
 .book-list li {
-    background: #6d3d6d;
+    background: #0a2d4e;
     border-radius: 4px;
     padding: 10px;
     cursor: pointer;
@@ -63,6 +68,7 @@ body {
 .empty {
     margin: 20px;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 form {
@@ -73,15 +79,32 @@ input[type='text'] {
     width: 100%;
     box-sizing: border-box;
     margin: 6px 0;
-    background: #3c1f3c;
+    background: #0a2d4e;
     color: #fff;
     border: 0;
+    height: 50px;
+    font-size: 25px;
 }
 
 input[type='submit'] {
-    margin: 10px auto;
-    background: #eee;
+    margin: 30px auto;
     border: 0;
-    padding: 6px 20px;
     display: block;
+    height: 60px;
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    cursor: pointer;
 }

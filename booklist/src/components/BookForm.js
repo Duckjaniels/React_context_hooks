@@ -15,14 +15,14 @@ const NewBookFrom = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="book title"
+        placeholder="Book title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         required
       />
       <input
         type="text"
-        placeholder="author title"
+        placeholder="Author name"
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
         required
